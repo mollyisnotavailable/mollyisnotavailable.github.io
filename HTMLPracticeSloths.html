@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	  <title>HTML Practice SLOTHS</title>
+
+	  <style>
+	  .sloths {
+	  	color:red;
+	  }
+	  
+	  #official-info {
+	  	background: rgb(230, 230, 230);
+	  	width: 75%;
+		height: 500px;
+		overflow-y: auto;
+		<!-- overflow-y is vertical scroll and overflow-x is horizontal scroll can use auto or hidden etc -->
+	  }
+	  <!-- span an inline element for grouping text, div is a block element for grouping elements where div will start a new line -->
+	  body {
+	  	font-family: "Futura", sans-serif;
+	  	font-size: 18px;
+	  } 
+	  <!-- Giving the font family name followed by a comma and family type (serif or sans-serif or cursive or fantasy or monospace which means fixed width that all the letters take up the exact same width and gives a typewriter look) allows the browser to default to the computer default font in that family if it does not recognize the one listed -->
+	
+	
+	h1 {
+		color:blue;
+	}
+	h2 {
+		color:blue;
+		font-variant: small-caps;
+		font-size: 1.5em;
+		<!-- Size px controls the pixels of everything selected. Size em sizes headlines up relative to other things listed in pixel/ font-weight can make something bold, font-style can be used to put something italic etc -->
+		
+	}
+	#are-best { 
+	  background-color:rgb(0,255,0)
+	}
+	
+	<!-- To use a class, instead of an id using #, make a class group using class="" instead of id="" in html. Add to each group in html then back to style tag. Instead of #id_name, use .class_name {color etc} -->
+	
+	<!-- this would remove the underline from the hyper links:
+	a {
+		text-decoration: none;
+	}
+	-->
+	table {
+		text-decoration: underline;
+		text-align: center;
+		line-height: 1.5em; <!-- Distance between lines is 1.5 times height of words -->
+	}
+	
+	  </style>
+	
+	</head>
+
+<body>
+	<h1 id="top"> <span class="sloths">Sloths!</span></h1>
+
+	<ul>
+	
+	  <li> <a href="#are-best">Check out Reasons Sloths are the Best </a></li>
+	  <li> <a href="#are-not-best">Check out Reasons Sloths are NOT the best </a></li>
+	  <li> <a href="#sloth_info_table"> Check out this Sloth info table! </a></li>
+	  <li> <a href="#sloth_wiki">Check out Sloth Wiki Info!</a></li>
+	  <li><a href="#adorable_sloth_resources">Check out some additional resources for adorable sloths! </a></li>
+	  
+	</ul>
+	<div id="official-info">
+	  <img src="https://mudsweatmountaineers.files.wordpress.com/2012/06/img_7248.jpg" width="500">
+
+	<h2 id="are-best"> Reasons <span class="sloths">Sloths </span> are the best</h2>
+
+	  <ol>
+        <li>Cute </li>
+        <li>Slow </li>
+        <li>Like to eat </li>
+        <li>Give no effs </li>
+      </ol>
+
+	<h2 id="are-not-best">Reasons <span class="sloths">Sloths</span> are NOT the best </h2>
+
+	<ul>
+      <li> NOTHING, HOW DARE YOU </li> <br>
+    </ul>
+      
+      <h2 id="sloth_info_table">Table of <span class="sloths">Sloth</span> Info</h2>
+      <table>
+      
+        <thead>
+          <tr>
+            <th>Colors</th>
+            <th> Diet </th>
+            <th> Cuteness </th>
+          </tr>
+          
+          <tbody>
+            <tr>
+              <td>Brown</td>
+              <td>Leaves</td>
+              <td>Fur</td>
+            </tr>  
+            <tr>
+              <td>Grey</td>
+              <td>Insects</td>
+              <td>Speed</td>
+            </tr>
+            <tr>
+              <td>White</td>
+              <td>Fruit</td>
+              <td>Smiles</td>
+            </tr>
+      
+      </table>
+      <h2 id="sloth_wiki"> General <span class="sloths">Sloth</span> Wiki Info</h2>
+     
+      <p>
+        Sloths of the present day are arboreal mammals noted for slowness of movement and for spending most of their lives hanging upside down in the trees of the tropical rain forests of South America and Central America. The six species are in two families: two-toed sloths and three-toed sloths. Despite this traditional naming, all sloths actually have three toes on each rear limb, although two-toed sloths have only two digits on each forelimb. <br>
+        <br>
+        The sloth is so named because of its very low metabolism and deliberate movements, sloth being related to the word slow. This supports their low-energy diet of leaves and avoids detection by predatory hawks and cats that hunt by sight.[3] Sloths are almost helpless on the ground but are able to swim. The shaggy coat has grooved hair that is host to symbiotic green algae which camouflages the animal in the trees and provides it nutrients. The algae also nourishes sloth moths, some species of which exist solely on sloths. <br>
+        <br>
+        They are classified in the order Pilosa along with the anteaters. Extinct sloth species include many megafaunal ground sloths, some of which attained the size of elephants, as well as marine sloths.
+      </p>
+     </div>
+    <h2 id="adorable_sloth_resources"> Other resources for adorable <span class="sloths">sloths</span> </h2>
+      
+      Check out this Reader's Digest article with <a target="_blank" href="https://www.rd.com/culture/cute-sloth-pictures/">adorable sloth pictures <br>
+        <img src="https://www.rd.com/wp-content/uploads/2016/04/sloths-slide1SamTrull-1024x683.jpg" width="500">
+        
+        </a>  
+
+	<p>
+	  For even more adorableness and to learn more about these cozy creatures, <a target="_blank" href="http://www.slothville.com/">visit Slothville</a>
+<!-- This is a comment not read by the browser. Using _blank here allows us to open a new webpage by the way. If we removed the _blank, the link would change the page we are on. Use _blank when going to a new domain, do not use it when traveling around the same domain so you can avoid opening multiple tabs. -->
+	</p>
+
+	<p>
+	  <a href="#top"> Back to top </a>
+	</p>
+
+</body>
